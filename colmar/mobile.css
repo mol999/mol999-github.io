@@ -1,0 +1,144 @@
+@media only screen and (max-width: 768px) {
+
+  #desktop {
+    display: none;
+  }
+  
+  #mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .holder-logo {
+    display: none;
+  }
+  
+  #learn {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  
+  .holder-img-header {
+    width: 100%;
+    height: 64px;
+    overflow: hidden;
+  }
+  
+  .holder-learn {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin: 32px 16px;
+    width: 100%;
+  }
+  
+  #practice {
+    padding-bottom: 16px;
+  }
+  
+  .holder-practice-main {
+    display: none;
+  }
+  
+  .holder-campus-info {
+    width: 100%;
+  }
+  
+  .campus-info-single {
+    flex-flow: wrap column;
+    border: 0;
+    height: auto;
+  }
+  
+  .holder-img-campus-info {
+    min-width: 100%;
+    margin: 0;
+    padding: 16px;
+  }
+  
+  .img-campus-info {
+    display: none;
+  }
+  
+  .img-campus-info-mobile {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .grey {
+    background-color: #CCDBDC;
+  }
+  
+  .campus-info-text {
+    margin-left: 32px;
+    margin-bottom: 16px;
+  }
+  
+  #learning {
+    padding-bottom: 24px;
+  }
+  
+  #learning h1 {
+    font-family: "Rufina", serif;
+    font-size: 2rem;
+    padding: 32px 0 8px 0;
+    text-align: center;
+  }
+  
+  #learning h2 {
+    line-height: 0.5rem;
+  }
+  
+  .holder-courses {
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .holder-course {
+    width: 100%;
+    margin: 8px 16px;
+    padding: 0;
+  }
+  
+  .holder-course-txt h3, p {
+    display: none;
+  }
+  
+  .holder-course-img {
+    display: none;
+  }
+  
+  .course-img {
+    display: none;
+  }
+  
+  .holder-vid {
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  
+  #thesis {
+    padding-bottom: 24px;
+  }
+  .holder-thesis-txt {
+    display: none;
+  }
+  
+  .holder-thesis-info {
+    display: none;
+  }
+  
+  footer {
+    justify-content: flex-start;
+  }
+  
+  .links {
+    display: none;
+  }
+}
+  
